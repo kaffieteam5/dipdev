@@ -16,14 +16,14 @@ pipeline{
 		stage('3-rotate'){
 			steps{
 				echo "keep walking"
-				sh 'whoami'
+				sh 'logname'
 			}
 		}
 		stage('4-station'){
 			steps{
 				echo "keep walking"
 				echo "final stage"
-				sh 'logname'
+				sh 'whoami'
 			}
 		}
 	}
